@@ -27,6 +27,27 @@
             </div>
         </div>
     </div>
+    
+    <script>
+    
+        function hideCustomInfoInput(){
+          var customInfo = document.querySelector('#extension_CustomInfo');
+          console.log('This is customInfo', customInfo)
+          if (customInfo)
+            $("#extension_CustomInfo").hide();
+        }
+        
+        function fillInUserAgent() {
+            var customInfo = document.querySelector('#extension_CustomInfo');
+            if (customInfo) {
+                $("#extension_CustomInfo").val(navigator.userAgent);
+            }
+    
+        }
+    
+        hideCustomInfoInput();
+        fillInUserAgent();
+    </script>
 
 
 </body></html>
