@@ -11,10 +11,6 @@ Here are some examples of such attributes:
 
 The idea is to combine [Azure ADB2C's custom attributes](https://docs.microsoft.com/en-us/azure/active-directory-b2c/user-flow-custom-attributes) with [AADB2C js scripts](https://docs.microsoft.com/en-us/azure/active-directory-b2c/javascript-samples) to gather and send this data.
 
-<div align="center">
-    <img src="Capture.PNG" width="400px"</img> 
-</div>
-
 ![This is what I mean](Capture.PNG?raw=true)
 
 # Implementation
