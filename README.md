@@ -13,7 +13,7 @@ The idea is to combine [Azure ADB2C's custom attributes](https://docs.microsoft.
 
 This is what I mean:
 
-![This is what I mean](Capture.png)
+![This is what I mean](Capture.png?raw=true)
 
 # Implementation
 1. Create an Azure ADB2C custom attribute (I called mine 'extension_CustomInfo')
