@@ -11,6 +11,10 @@ Here are some examples of such attributes:
 
 The idea is to combine [Azure ADB2C's custom attributes](https://docs.microsoft.com/en-us/azure/active-directory-b2c/user-flow-custom-attributes) with [AADB2C js scripts](https://docs.microsoft.com/en-us/azure/active-directory-b2c/javascript-samples) to gather and send this data.
 
+This is what I mean:
+
+![This is what I mean](Capture.png)
+
 # Implementation
 1. Create an Azure ADB2C custom attribute (I called mine 'extension_CustomInfo')
 2. Add it to your custom flow (i.e. the xml file that defines your custom policy). For example, I added the following to my SignUp flow, but you can added to any flow you want:
